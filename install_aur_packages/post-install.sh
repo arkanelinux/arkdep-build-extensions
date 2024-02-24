@@ -1,3 +1,9 @@
+#
+# This script is provided for reference and your convenience, but it is discouraged
+# to actually use it for it will pollute your images with build dependencies.
+#
+
+
 # Set list of packages to install
 # List is delimited with a +. first entry is package name, second is the git clone url
 declare -r aur_packages=('paru-bin+https://aur.archlinux.org/paru-bin.git' 'yay-bin+https://aur.archlinux.org/yay-bin.git')
