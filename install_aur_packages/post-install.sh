@@ -30,4 +30,3 @@ done
 # Cleanup
 printf '\e[1;32m-->\e[0m\e[1m Performing cleanup\e[0m\n'
 arch-chroot $workdir userdel -r aur
-rm -rf $workdir/etc/sudoers.d/aur
